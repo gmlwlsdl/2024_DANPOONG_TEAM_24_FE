@@ -24,7 +24,7 @@ function InformationCard({
         >
           {title}
         </div>
-        <div className="mt-2 font-M00 text-400 text-xs leading-[140%] -tracking-[0.8px]">
+        <div className="mt-2 font-M00 text-400 text-xs leading-[140%] -tracking-[0.8px] whitespace-pre-line">
           {description}
         </div>
       </div>

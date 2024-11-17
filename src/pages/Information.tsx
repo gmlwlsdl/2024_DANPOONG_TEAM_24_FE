@@ -6,8 +6,7 @@ function Information() {
       <div className="mx-[18px] flex flex-col gap-5 justify-center">
         <InformationCard
           title="건강에 유해한 품목은 구매가 어려워요"
-          description="주류,담배 등 아동청소년 판매 금지 품목, 커피, 에너지 음료 (고카페인
-            함유 음료) 탄산음료(콜라,사이다 등)"
+          description={`주류,담배 등 아동청소년 판매 금지 품목, 커피, 에너지 음료\n(고카페인 함유 음료) 탄산음료(콜라,사이다 등)`}
         />
         <InformationCard
           title="한끼식사로 볼 수 없는 간식,조미류는 구매가 어려워요"
@@ -19,7 +18,7 @@ function Information() {
         />
         <InformationCard
           title="편의점에서는 종량제 봉투를 결제할 수 있어요"
-          description="원칙상 1장 가능만 구매가 가능해요"
+          description="원칙상 1장씩만 구매가 가능해요"
           isAccepted={true}
         />
       </div>
