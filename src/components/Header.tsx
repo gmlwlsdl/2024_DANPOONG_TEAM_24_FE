@@ -17,10 +17,17 @@ function Header() {
           <div className="flex flex-row gap-[14.5px] items-center">
             <div className="flex gap-2 items-center">
               <div className="font-SB00 text-[16px]">광진구 능동로 209</div>
-              <img src={arrow} alt="Arrow" className="w-4 h-[6px]" />
+              <img
+                src={arrow}
+                alt="Arrow"
+                className="w-4 h-[6px] cursor-pointer"
+              />
             </div>
-
-            <img src={user} alt="userIcon" className="w-[19px] h-[19px]" />
+            <img
+              src={user}
+              alt="userIcon"
+              className="w-[19px] h-[19px] cursor-pointer"
+            />
           </div>
         </div>
         {window.location.pathname === '/home' ? (
