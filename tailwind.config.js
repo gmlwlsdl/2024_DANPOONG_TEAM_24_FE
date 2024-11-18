@@ -6,6 +6,7 @@ export default {
     fontFamily: {
       SB00: ['AppleSDGothicNeoSB00'],
       M00: ['AppleSDGothicNeoM00'],
+      R00: ['AppleSDGothicNeoR00'],
     },
     colors: {
       200: '#CBCDD2',

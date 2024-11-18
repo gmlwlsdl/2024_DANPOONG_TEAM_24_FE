@@ -13,3 +13,9 @@
   font-weight: regular;
   src: url('./assets/fonts/AppleSDGothicNeoM.ttf'), format('truetype');
 }
+
+@font-face {
+  font-family: 'AppleSDGothicNeoR00';
+  font-weight: regular;
+  src: url('./assets/fonts/AppleSDGothicNeoR.ttf'), format('truetype');
+}
