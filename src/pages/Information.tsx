@@ -1,11 +1,12 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import InformationCard from '../components/InformationCard'
 
 function Information() {
   return (
     <>
       <Header />
-      <section className="mt-[7.49px] border border-200">
+      <section className="mt-[7.49px] border-t border-200">
         <div className="px-[18px] pt-[42.5px] flex flex-col gap-5 justify-center">
           <InformationCard
             title="건강에 유해한 품목은 구매가 어려워요"
@@ -26,6 +27,7 @@ function Information() {
           />
         </div>
       </section>
+      <Footer />
     </>
   )
 }
