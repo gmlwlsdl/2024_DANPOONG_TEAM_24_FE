@@ -1,5 +1,6 @@
 import Cn from '../utils/Cn'
 import logo from '../assets/common/Logo.svg'
+import logoText from '../assets/common/LogoText.svg'
 import arrow from '../assets/common/Arrow.svg'
 import user from '../assets/common/User.svg'
 import search from '../assets/common/Search.svg'
@@ -11,11 +12,7 @@ function Header() {
         <div className=" flex justify-between">
           <div className="flex flex-row gap-[10px] items-center">
             <img src={logo} alt="logoIcon" className="w-9 h-9" />
-            <img
-              src="../src/assets/common/LogoText.svg"
-              alt="logoText"
-              className="w-[37.33px] h-7"
-            />
+            <img src={logoText} alt="logoText" className="w-[37.33px] h-7" />
           </div>
           <div className="flex flex-row gap-[14.5px] items-center">
             <div className="flex gap-2 items-center">
