@@ -1,4 +1,4 @@
-import Cn from '../utils/cn'
+import Cn from '../utils/Cn'
 
 function Header() {
   return (
