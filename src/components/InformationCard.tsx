@@ -1,3 +1,6 @@
+import yellowDot from '../assets/information/YellowDot.svg'
+import redDot from '../assets/information/RedDot.svg'
+
 interface informationCardProps {
   title: string
   description: string
@@ -9,9 +12,7 @@ function InformationCard({
   description,
   isAccepted,
 }: informationCardProps) {
-  const iconSrc = isAccepted
-    ? '../src/assets/information/YellowDot.svg'
-    : '../src/assets/information/RedDot.svg'
+  const iconSrc = isAccepted ? yellowDot : redDot
 
   return (
     <div className="h-[120px] flex items-start px-[18px] py-[27px] gap-[0.5625rem] border border-200 rounded-xl">
