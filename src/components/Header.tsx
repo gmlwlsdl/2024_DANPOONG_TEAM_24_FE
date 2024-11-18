@@ -1,4 +1,8 @@
 import Cn from '../utils/Cn'
+import logo from '../assets/common/Logo.svg'
+import arrow from '../assets/common/Arrow.svg'
+import user from '../assets/common/User.svg'
+import search from '../assets/common/Search.svg'
 
 function Header() {
   return (
@@ -6,11 +10,7 @@ function Header() {
       <header className="mt-7 ml-[17px] mr-[19px]">
         <div className=" flex justify-between">
           <div className="flex flex-row gap-[10px] items-center">
-            <img
-              src="../src/assets/common/Logo.svg"
-              alt="logoIcon"
-              className="w-9 h-9"
-            />
+            <img src={logo} alt="logoIcon" className="w-9 h-9" />
             <img
               src="../src/assets/common/LogoText.svg"
               alt="logoText"
@@ -20,18 +20,10 @@ function Header() {
           <div className="flex flex-row gap-[14.5px] items-center">
             <div className="flex gap-2 items-center">
               <div className="font-SB00 text-[16px]">광진구 능동로 209</div>
-              <img
-                src="../src/assets/common/Arrow.svg"
-                alt="Arrow"
-                className="w-4 h-[6px]"
-              />
+              <img src={arrow} alt="Arrow" className="w-4 h-[6px]" />
             </div>
 
-            <img
-              src="../src/assets/common/User.svg"
-              alt="userIcon"
-              className="w-[19px] h-[19px]"
-            />
+            <img src={user} alt="userIcon" className="w-[19px] h-[19px]" />
           </div>
         </div>
         {window.location.pathname === '/home' ? (
@@ -46,7 +38,7 @@ function Header() {
               )}
             />
             <img
-              src="../src/assets/common/Search.svg"
+              src={search}
               alt="searchIcon"
               className="absolute top-1/2 left-3 transform -translate-y-1/2 pl-[311px]"
             />
